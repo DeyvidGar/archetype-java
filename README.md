@@ -6,8 +6,7 @@
 
 <p>This archetype was able to create a simple Java structure project, with the next:</p>
 
----
-
+```console
 ${artifactId}
 pom.xml
 README.md
@@ -18,6 +17,7 @@ README.md
     |--test
         |--java
             |--${package}
+```
 
 ---
 
@@ -30,28 +30,32 @@ README.md
 - **Git**
 - **IDE or VSC**
 
+---
+
 ## How to work with this archetype
 
 <p>You need to know the next:</p>
 
 - <p>If you want to modify or add news files like classes .java, folders, and others you have to do all this in:</p>
 
----
+```console
 src
 |--main
     |--resources
         |--archetype-resources
----
+```
 
 <p>And don't forget to verify or append the news files or structure in:</p>
 
----
+```console
 src
 |--main
     |--resources
         |--META-INF
             |--maven
                 |--archetype-metadata.xml
+```
+
 ---
 
 ## What run the application?
